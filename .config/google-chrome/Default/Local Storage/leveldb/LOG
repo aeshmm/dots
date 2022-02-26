@@ -1,0 +1,15 @@
+2022/02/26-14:51:51.841 3 Reusing MANIFEST /home/hansel/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2022/02/26-14:51:51.842 3 Recovering log #46
+2022/02/26-14:51:51.842 3 Reusing old log /home/hansel/.config/google-chrome/Default/Local Storage/leveldb/000046.log 
+2022/02/26-14:54:20.582 3 Level-0 table #50: started
+2022/02/26-14:54:20.585 3 Level-0 table #50: 21234 bytes OK
+2022/02/26-14:54:20.589 3 Delete type=0 #46
+2022/02/26-14:54:20.590 3 Compacting 4@0 + 1@1 files
+2022/02/26-14:54:20.594 3 Generated table #51@0: 129 keys, 106557 bytes
+2022/02/26-14:54:20.594 3 Compacted 4@0 + 1@1 files => 106557 bytes
+2022/02/26-14:54:20.595 3 compacted to: files[ 0 1 0 0 0 0 0 ]
+2022/02/26-14:54:20.596 3 Delete type=2 #47
+2022/02/26-14:54:20.596 3 Delete type=2 #50
+2022/02/26-14:54:20.596 3 Delete type=2 #44
+2022/02/26-14:54:20.596 3 Delete type=2 #41
+2022/02/26-14:54:20.596 3 Delete type=2 #38

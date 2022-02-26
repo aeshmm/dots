@@ -1,0 +1,21 @@
+2022/02/26-12:23:11.259 a9ad Reusing MANIFEST /home/hansel/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/02/26-12:23:11.259 a9ad Recovering log #74
+2022/02/26-12:23:11.275 a9ad Reusing old log /home/hansel/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000074.log 
+2022/02/26-12:23:15.670 a9ab Level-0 table #79: started
+2022/02/26-12:23:15.683 a9ab Level-0 table #79: 1033339 bytes OK
+2022/02/26-12:23:15.684 a9ab Delete type=0 #74
+2022/02/26-12:24:22.954 a9ab Compacting 1@1 + 1@2 files
+2022/02/26-12:24:22.962 a9ab Generated table #80@1: 394 keys, 53369 bytes
+2022/02/26-12:24:22.962 a9ab Compacted 1@1 + 1@2 files => 53369 bytes
+2022/02/26-12:24:22.963 a9ab compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/02/26-12:24:22.963 a9ab Delete type=2 #76
+2022/02/26-12:24:22.963 a9ab Delete type=2 #79
+2022/02/26-12:26:38.578 aa56 Level-0 table #82: started
+2022/02/26-12:26:38.583 aa56 Level-0 table #82: 777624 bytes OK
+2022/02/26-12:26:38.586 aa56 Delete type=0 #78
+2022/02/26-12:27:05.784 aa56 Compacting 1@1 + 1@2 files
+2022/02/26-12:27:05.793 aa56 Generated table #83@1: 448 keys, 65769 bytes
+2022/02/26-12:27:05.793 aa56 Compacted 1@1 + 1@2 files => 65769 bytes
+2022/02/26-12:27:05.794 aa56 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/02/26-12:27:05.794 aa56 Delete type=2 #80
+2022/02/26-12:27:05.794 aa56 Delete type=2 #82

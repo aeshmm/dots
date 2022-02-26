@@ -1,0 +1,39 @@
+#
+# wm independent hotkeys
+#
+
+# reloads sxhkd configuration:
+alt + Escape
+    pkill -USR1 -x sxhkd
+
+# Launch Terminal
+# super + Return
+#     terminal
+
+# Floating Alacritty Terminal
+# super + shift + Return
+#     terminal -f
+
+# Fullscreen Alacritty Terminal
+# super + shift + t
+#     terminal -m
+
+# Launch Menus
+# alt + {x,n,d}
+#     {power,wifi,launcher}
+
+# Launch Applications
+alt + shift + {e,w,g,d}
+    {thunar,firefox,geany,discord}
+
+# Volume controls
+XF86Audio{RaiseVolume,LowerVolume,Mute}
+    volume{ --up, --down, --toggle}
+
+# Brightness controls
+XF86MonBrightness{Up,Down}
+    brightness{ --up, --down}
+
+# Scrot
+Print
+    sclot

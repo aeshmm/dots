@@ -1,0 +1,7 @@
+2022/02/25-17:21:27.303 16b9 Reusing MANIFEST /home/hansel/.config/google-chrome/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/02/25-17:21:27.304 16b9 Recovering log #11
+2022/02/25-17:21:27.304 16b9 Reusing old log /home/hansel/.config/google-chrome/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/000011.log 
+2022/02/25-17:21:27.586 16b9 Level-0 table #16: started
+2022/02/25-17:21:27.588 16b9 Level-0 table #16: 8120 bytes OK
+2022/02/25-17:21:27.589 16b9 Delete type=0 #11
+2022/02/25-17:21:27.589 16b9 Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)

@@ -1,0 +1,14 @@
+#!/bin/env bash
+
+FONT="Source Code Pro Medium:size=12"
+
+[[ -z "$DISPLAY" ]] && exit 1
+choice=$(echo -e "1: Sleep\n2: Shutdown\n3: Reboot\n4: Logout" | dmenu -c -i -l 10 -fn "$FONT" -p "Powermenu:" | cut -d ':' -f 1)
+[[ -z "$choice" ]] && exit 1
+case "$choice" in
+  1) systemctl suspend          ;;
+  2) poweroff			;;
+  3) reboot 			;;
+  4) pkill -KILL -u "$USER" &	;;
+esac
+

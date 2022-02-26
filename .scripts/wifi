@@ -1,0 +1,6 @@
+#!/bin/env bash
+
+FONT="Source Code Pro Medium:size=12"
+
+# configuration of networkmanager-dmenu
+networkmanager_dmenu -c -i -l 10 -fn "$FONT"

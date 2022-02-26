@@ -1,0 +1,6 @@
+#!/bin/env bash
+
+FONT="Source Code Pro Medium:size=12"
+
+# script for dwm's dmenu
+dmenu_run -c -l 10 -i -fn "$FONT" -p "Run Command:"
