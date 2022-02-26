@@ -1,5 +1,0 @@
-2022/02/26-14:50:59.388 4feb Creating DB /home/hansel/Documents/dotfiles/.config/discord/Local Storage/leveldb since it was missing.
-2022/02/26-14:50:59.390 4feb Reusing MANIFEST /home/hansel/Documents/dotfiles/.config/discord/Local Storage/leveldb/MANIFEST-000001
-2022/02/26-14:52:14.595 4feb Level-0 table #5: started
-2022/02/26-14:52:14.602 4feb Level-0 table #5: 332583 bytes OK
-2022/02/26-14:52:14.603 4feb Delete type=0 #3
