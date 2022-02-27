@@ -37,3 +37,7 @@ XF86MonBrightness{Up,Down}
 # Scrot
 Print
     sclot
+
+# CLI programs
+alt + p
+    st -e pulsemixer
