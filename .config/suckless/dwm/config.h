@@ -175,6 +175,7 @@ static const char *dmenucmd[] = { "launcher", NULL };
 static const char *termcmd[]  = { "st", NULL };
 static const char *wificmd[]  = { "wifi", NULL };
 static const char *powercmd[]  = { "power", NULL };
+static const char *recordcmd[]  = { "record", NULL };
 
 
 
@@ -184,6 +185,7 @@ static Key keys[] = {
 	{ MODKEY,                       XK_Return,     spawn,                  {.v = termcmd } },
 	{ MODKEY,                       XK_n,          spawn,                  {.v = wificmd } },
 	{ MODKEY,                       XK_x,          spawn,                  {.v = powercmd } },
+	{ MODKEY,                       XK_r,          spawn,                  {.v = recordcmd } },
 	{ MODKEY,                       XK_b,          togglebar,              {0} },
 	{ MODKEY,                       XK_j,          focusstack,             {.i = +1 } },
 	{ MODKEY,                       XK_k,          focusstack,             {.i = -1 } },

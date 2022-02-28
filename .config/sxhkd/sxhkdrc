@@ -39,5 +39,6 @@ Print
     sclot
 
 # CLI programs
-alt + p
-    st -e pulsemixer
+alt + r
+    record
+    
