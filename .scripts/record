@@ -1,0 +1,11 @@
+#!/bin/bash
+
+FONT="Source Code Pro Medium:size=12"
+
+[[ -z "$DISPLAY" ]] && exit 1
+choice=$(echo -e "1: Start\n2: Stop\n" | dmenu -c -i -l 2 -fn "$FONT" -p "Record:" | cut -d ':' -f 1)
+[[ -z "$choice" ]] && exit 1
+case "$choice" in
+	    1) name=$(echo "default.mkv" | dmenu -c -i -l 2 -fn "$FONT" -p "Filename:") ; rm "/home/$USER/Videos/$name" ; ffmpeg -framerate 30 -f x11grab -i :0.0 -f alsa -ac 2 -i default "/home/$USER/Videos/$name" ;;
+	    2) pkill ffmpeg                                                                                            ;;
+esac
